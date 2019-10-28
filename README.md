@@ -1,17 +1,25 @@
 # Tic Tac Toe
 A console based Tic Tac Toe game, that allows two human players to play on a 3 x 3 board.
 
-### To start the game
-Open the terminal and navigate into the same directory as `tictactoe.py`.
+## To start the game
+> Note: Python 2.7.x or 3.x is required to run the game.
 
-Run `python ./tictactoe.py`
+Open the terminal and navigate to the same directory as `tictactoe.py`.
 
-### How to play
-Enter `x` and `y` coordinates as follows:
+##### For Python 3:
+Run `python3 tictactoe.py` 
+
+##### For Python 2.7:
+Run `python tictactoe.py`
+
+## How to play
+Enter `x`(row) and `y`(column) coordinates to make a move:
 ```
-. . .
-. . .
-. . .
+   1 2 3 y
+1  . . .
+2  . . .
+3  . . .
+x
 ```
 
 * Requires two players, player 1 always starts the game
@@ -21,6 +29,7 @@ Enter `x` and `y` coordinates as follows:
 * The game ends when:
   - ***A player wins***, by placing their "X" or "O", three in a row, column or diagonally
   - ***A draw happens***, when all fields are taken on the board
+  - ***Player quits the game***, by entering 'q' as their input
   
 ## Example Game
 
@@ -71,7 +80,7 @@ X O .
 
 Player 1 enter a coord x,y to place your X or enter 'q' to give up: 3,1
 
-Move accepted, well done you've won the game!  
+Move accepted. Well done player 1, you've won the game!  
 
 X . O  
 X O . 
