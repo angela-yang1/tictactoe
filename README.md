@@ -29,7 +29,7 @@ x
 * The game ends when:
   - ***A player wins***, by placing their "X" or "O", three in a row, column or diagonally
   - ***A draw happens***, when all fields are taken on the board
-  - ***Player quits the game***, by entering 'q' as their input
+  - ***A player quits the game***, by entering 'q' as their input
   
 ## Example Game
 
